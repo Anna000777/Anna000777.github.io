@@ -1,3 +1,28 @@
+* {
+	box-sizing: border-box;
+}
 body{
 	font-family: 'Roboto', sans-serif;
+	background-image: url('images/patt.png');
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background-color: rgba(255,255,255,0.75);
+}
+.row:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.col-md-3{
+	width: 25%;
+}
+.col-md-6{
+	width: 50%;
+}
+[class*="col-"]{
+	float:left;
 }
