@@ -77,6 +77,8 @@ input{
 	width: 160px;
 	line-height: 32px;
 	padding-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .button{
 	background-image: url('images/search.png');
@@ -85,7 +87,7 @@ input{
 	width: 30px;
 	height: 30px;
 	background-color: #2c71b8;
-	margin: 3px;
+	margin: 4px;
 }
 .bin{
 	background-image: url('images/bin.png');
