@@ -48,3 +48,40 @@ body{
 	color: white;
 	background-color: #2c71b8;
 }
+.col-md-2{
+	width: 76%;
+}
+.col-md-1{
+	width: 24%;
+}
+input{
+	border: none;
+	float: left;
+}
+.search-menu{
+	border: 1px solid #2c71b8;
+	width: 200px;
+	height: 40px;
+	margin-top: 7px;
+	margin-left: 30px;
+}
+.logo{
+	margin-top: 7px;
+}
+.search{
+	color: #2c71b8;
+	font-size: 21px;
+	background-color: rgba(0,0,0,0);
+	width: 160px;
+	line-height: 32px;
+	padding-left: 20px;
+}
+.button{
+	background-image: url('images/search.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	background-color: #2c71b8;
+	margin: 3px;
+}
