@@ -48,13 +48,14 @@ body{
 	color: white;
 	background-color: #2c71b8;
 }
-.col-md-2{
-	width: 86%;
+.col-md-9{
+	width: 77%;
 }
-.col-md-1{
-	width: 14%;
-	position: relative;
-	
+.col-md-2{
+	width: 23%;
+}
+.logo{
+	margin-top: 7px;
 }
 input{
 	border: none;
@@ -65,22 +66,24 @@ input{
 	width: 200px;
 	height: 40px;
 	margin-top: 7px;
-	margin-left: 27px;
+	margin-left: 26px;
 }
-.logo{
-	margin-top: 7px;
-}
-.search{
-	color: #2c71b8;
+input[type="search"]{
 	font-size: 21px;
-	background-color: rgba(0,0,0,0);
+	background-color: /*transparent*/inherit;
 	width: 160px;
 	line-height: 32px;
 	padding-left: 20px;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
-.button{
+input[type="search"]::-webkit-input-placeholder{
+	color: #2c71b8;
+}
+input[type="search"]::-moz-placeholder{
+	color: #2c71b8;
+}
+input[type="button"]{
 	background-image: url('images/search.png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -97,13 +100,15 @@ input{
 	height: 40px;
 	background-color: white;
 	margin-top: 7px;
+	position: relative;
+	margin-left: 26px;
 }
 .product-count{
 	background-color: #2c71b8;
 	color: white;
 	border-radius: 50%;
 	position: absolute;
-	top: -5%;
+	top: -25%;
 	left: -25%;
 	width: 20px;
 	height: 20px;
