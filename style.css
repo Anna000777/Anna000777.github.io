@@ -41,6 +41,7 @@ body{
 	height: 50px;
 	text-decoration: none;
 	font-size: 21px;
+	font-weight: 300;
 	color: #2c71b8;
 	text-align: center;
 	line-height: 50px;
@@ -71,6 +72,8 @@ input{
 }
 input[type="search"]{
 	font-size: 21px;
+	font-weight: 100;
+	color: #2c71b8;
 	background-color: /*transparent*/inherit;
 	width: 160px;
 	line-height: 32px;
@@ -80,6 +83,7 @@ input[type="search"]{
 }
 input[type="search"]::-webkit-input-placeholder{
 	color: #2c71b8;
+	font-weight: 100;
 }
 input[type="search"]::-moz-placeholder{
 	color: #2c71b8;
@@ -117,9 +121,13 @@ input[type="button"]{
 	line-height: 20px;
 	font-size: 12px;
 }
-.list{
+.menu li ul{
 	position: absolute;
 	z-index: 1;
+	display: none;
+}
+.menu li:hover>ul{
+	display: block;
 }
 .list li {
 	display: block;
@@ -131,13 +139,18 @@ input[type="button"]{
 	display: block;
 	color: white;
 	padding: 13px 20px 13px 30px;
-	
 	text-align: left;
 	line-height: 20px;
+	height: 40px;
 }
 .list li:first-child{
 	height: 60px;
 }
 a.first{
 	padding-top: 30px;
+	height: 60px;
+}
+.list a:hover{
+	background-color: white;
+	color: #2c71b8;
 }
