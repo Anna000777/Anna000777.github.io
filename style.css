@@ -31,6 +31,7 @@ body{
 	float: left;
 	width: 25%;
 	border-left: 1px solid #2c71b8;
+	position: relative;
 }
 .menu li:last-child{
 	border-right: 1px solid #2c71b8;
@@ -115,4 +116,28 @@ input[type="button"]{
 	text-align: center;
 	line-height: 20px;
 	font-size: 12px;
+}
+.list{
+	position: absolute;
+	z-index: 1;
+}
+.list li {
+	display: block;
+	width: 178%;
+	height: 40px;
+	background-color: #2c71b8;
+}
+.list a{
+	display: block;
+	color: white;
+	padding: 13px 20px 13px 30px;
+	
+	text-align: left;
+	line-height: 20px;
+}
+.list li:first-child{
+	height: 60px;
+}
+a.first{
+	padding-top: 30px;
 }
