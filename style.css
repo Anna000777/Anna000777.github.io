@@ -158,3 +158,17 @@ a.first{
 	background-color: white;
 	color: #2c71b8;
 }
+.arrow{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	right: 10px;
+	top: 0;
+	transform: rotate(90deg);
+}
+.menu li:hover .arrow{
+	color: white;
+}
+.products{
+	position: relative;
+}
