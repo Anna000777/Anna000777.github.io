@@ -76,6 +76,7 @@ input{
 }
 input[type="search"]{
 	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	color: #2c71b8;
 	background-color: /*transparent*/inherit;
@@ -158,16 +159,15 @@ a.first{
 	background-color: white;
 	color: #2c71b8;
 }
-.arrow{
+.arrow:after{
 	position: absolute;
-	font-size: 16px;
-	font-weight: 700;
 	right: 10px;
 	top: 0;
-	transform: rotate(90deg);
+	content: url('images/arrow_blue.png');
+	
 }
-.menu li:hover .arrow{
-	color: white;
+.menu li:hover .arrow:after{
+	content: url('images/arrow_white.png');
 }
 .products{
 	position: relative;
