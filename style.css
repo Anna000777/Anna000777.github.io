@@ -184,6 +184,8 @@ a.first{
 .menu li:hover .arrow:after{
 	content: url('images/arrow_white.png');
 }
+
+
 .product{
 	margin-bottom: 30px;
 }
