@@ -128,7 +128,7 @@ input[type="search"]::-moz-placeholder{
 	position: relative;
 	margin-left: 26px;
 }
-.product-count{
+#products-count{
 	background-color: #2c71b8;
 	color: white;
 	border-radius: 50%;
