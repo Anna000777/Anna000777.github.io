@@ -14,22 +14,6 @@ for (let i = 0; i < addToCartButtons.length; i++) {
    	dots: true
  });
 
-/*let likeEl = document.querySelectorAll(".like");
-let countPress = 0;
-
-for (let i=0; i < likeEl.length; i++){
-	likeEl[i].addEventListener("click", function(){
-		countPress = countPress + 1;
-		console.log(countPress);
-		if (countPress == 1){
-			console.log("liked");
-
-		} else if (countPress == 2){
-			console.log ("disliked");
-			countPress = 0;
-		}
-		});
-	};*/
 
 let likeButtons = document.querySelectorAll(".like");
 console.log(likeButtons);
@@ -76,7 +60,4 @@ decrementButton.addEventListener("click", function(){
 	quantityInput.value = nextCount;
 	toggleButtonState(nextCount);
 });
-
-
-
 
