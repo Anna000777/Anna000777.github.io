@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -46,7 +48,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="bin">
-								<div class="product-count">4</div>
+								<div id="products-count">0</div>
 							</div>
 						</div>
 					</div>
@@ -55,9 +57,13 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 slider">Slide#3	
+		<div class="container-slider row">
+			<div class="col-md-12">
+				<div class="slider">
+  					<div>Slide#1</div>
+ 					<div>Slide#2</div>
+ 					<div>Slide#3</div>
+ 					<div>Slide#4</div>
 				</div>
 			</div>
 		</div>
@@ -133,16 +139,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$599<b> 25</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">					
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>			
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row second">
 								<div class="image-product"><img class="image tv" src="images/tv.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -154,16 +161,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$1250<b> 99</b></p>
-									<input  type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input  type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row third">
 								<div class="image-product"><img class="image watch" src="images/watch.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -175,11 +183,12 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$399<b> 50</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
@@ -196,16 +205,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$599<b> 25</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row second">
 								<div class="image-product"><img class="image mp3" src="images/mp3.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -217,16 +227,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$1250<b> 99</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row third">
 								<div class="image-product"><img class="image iphone" src="images/iphone.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -238,11 +249,12 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$399<b> 50</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
@@ -259,16 +271,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$599<b> 25</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row second">
 								<div class="image-product"><img class="image tv" src="images/tv.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -280,16 +293,17 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$1250<b> 99</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="product row">
+							<div class="product row third">
 								<div class="image-product"><img class="image watch" src="images/watch.png" alt="">
 									<div class="square"></div>
 									<div class="like"></div>
@@ -301,11 +315,12 @@
 									<p><b>SCREEN SIZE:</b> 7 inches</p>
 									<p><b>RAM:</b> 1 GB</p>
 									<p class="price">$399<b> 50</b></p>
-									<input type="button" class="more-details" name="more-details" value="MORE DETAILS">
-									<div class="add-and-bin">
-										<input type="button" class="add-to-cart" name="add-to-cart" value="ADD TO CART">
-										<div class="bin-white"></div>
-									</div>
+									<div class="quantity-input">
+										<button class="decrement-button">-</button>
+										<input type="text" name="" value="1" readonly="true">
+										<button class="increment-button">+</button>
+									</div>				
+										<button class="add-to-cart">ADD TO CART<div class="bin-white"></div></button>
 								</div>
 							</div>
 						</div>
@@ -315,5 +330,9 @@
 		</div>
 	</main>
 	<footer class="footer">Footer</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
